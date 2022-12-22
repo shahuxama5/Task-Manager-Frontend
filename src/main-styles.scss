@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito:wght@400;700&display=swap');
 
-$turquoise: #44ddd0;
-$green: #27d7a1;
-$light-green: #45f69e;
+$turquoise: #156fd6;
+$blue: #0d2185;
+$light-blue: #2e9cdb;
 
-$dark-green: rgb(0, 100, 80);
+$dark-blue: #100763;
 
 $light: #f8f8f8;
 
 $familt-sans-serif: 'Nunito', sans-serif;
 
-$primary: $green;
-$link: $light-green;
+$primary: $blue;
+$link: $light-blue;
 
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
 html {
-    background: linear-gradient(to right top, $turquoise, $green);
+    background: linear-gradient(to right top, $turquoise, $blue);
 }
 
 html, body {
@@ -40,4 +40,11 @@ html, body {
     background: white;
     border-radius: 5px;
     padding: 35px;
+}
+
+.title {
+    font-family: 'Lato';
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
